@@ -11,10 +11,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {font-family: Montserrat; src: url('../assets/fonts/Montserrat-Regular.otf');}
+@font-face {font-family: Montserrat; font-weight: bold; src: url('../assets/fonts/Montserrat-Bold.otf');}
+
 html {
   color: #222;
   font-size: 1em;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.4;
 
   scroll-behavior: smooth;
