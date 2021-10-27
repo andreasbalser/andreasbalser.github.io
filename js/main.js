@@ -1,9 +1,11 @@
 document.onmousemove = function (e) {
 
-  if (e.clientY + document.documentElement.scrollTop < window.innerHeight)
-    interactiveButton_animation(e);
-  else {
-    resetAnimation();
+  if (document.documentElement.clientWidth > 600) {
+    if (e.clientY + document.documentElement.scrollTop < window.innerHeight)
+      interactiveButton_animation(e);
+    else {
+      resetAnimation();
+    }
   }
 }
 

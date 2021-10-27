@@ -116,8 +116,7 @@ body {
 @media screen and (max-width: 600px) {
 
   .centered-container {
-    width: 100%;
-    padding: 20px;
+    width: 90vw;
   }
 }
 
