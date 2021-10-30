@@ -32,6 +32,10 @@
   text-decoration: none;
 }
 
+#navbar > a:first-child {
+  min-width: 178px;
+}
+
 #navbar > a:not(:first-child) {
   font-size: 16px;
   font-weight: bold;
