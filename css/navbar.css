@@ -12,10 +12,11 @@
   margin: 0 auto 0;
   padding: 0 10px 0;
 
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
 
   height: 60px;
+  background-color: white;
 }
 
 #desktop {
@@ -28,13 +29,13 @@
   justify-content: stretch;
   align-items: start;
 
-  transition: height .7s ease;
+  transition: height .4s;
 }
 
 #burgerList {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
   align-items: start;
 
@@ -45,7 +46,7 @@
 @media screen and (min-width: 35em) {
   .navbar {
     width: 60vw;
-    min-width: 500px;
+    min-width: 530px;
     max-width: 1000px;
   }
 
@@ -92,6 +93,7 @@ main {
 .con {
   cursor: pointer;
   display: inline-block;
+  transform: scale(.7);
 }
 
 .bar {
@@ -103,7 +105,7 @@ main {
 }
 
 .con:hover .bar,.special-con:hover .bar {
-  background-color: #eb3838;
+  background-color: lightgray;
 }
 
 .middle {
