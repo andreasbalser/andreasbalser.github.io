@@ -77,6 +77,11 @@ a {
   text-decoration: inherit;
 }
 
+.URL {
+  color: #ec3838;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 35em) {
 
   .centered-container {
@@ -152,7 +157,7 @@ a {
   gap: 20px;
 }
 
-@media only screen and (max-width: 35em) {
+@media only screen and (min-width: 35em) {
   .picture-cell-tall {
     grid-row: span 2 / auto;
   }
