@@ -62,8 +62,7 @@ h2 {
 h3 {
   margin: 10px 0 10px;
   text-align: left;
-  font-size: 27px;
-  line-height: 43px;
+  font-size: 25px;
   font-weight: normal;
 }
 
@@ -82,14 +81,6 @@ a {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 35em) {
-
-  .centered-container {
-    width: 60vw;
-    min-width: 530px;
-    max-width: 1000px;
-  }
-}
 
 @media screen and (max-width: 35em) {
 
@@ -108,13 +99,28 @@ a {
 
   h3 {
     font-size: 27px;
-    line-height: 43px;
   }
 
   p, ul {
     line-height: 28px;
     margin: 5px 0 5px;
     font-size: .9em;
+  }
+
+
+  table tr {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 35em) {
+
+  .centered-container {
+    width: 60vw;
+    min-width: 530px;
+    max-width: 1000px;
   }
 }
 
@@ -131,16 +137,19 @@ a {
 }
 
 .image {
-  margin: 50px 0 100px;
+  margin: 50px 0 50px;
 
   max-width: 100%;
 }
 
-.solo {
-  width: 50%;
-  min-width: 400px;
-  max-width: 600px;
+@media screen and (min-width: 35em) {
+  .solo {
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+  }
 }
+
 
 .wide {
   width: 100%;
@@ -186,10 +195,6 @@ table {
 table > * {
   text-align: left;
   vertical-align: top;
-}
-
-td {
-
 }
 
 th {
