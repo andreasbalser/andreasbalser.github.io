@@ -82,7 +82,7 @@ a {
   text-decoration: underline;
 }
 
-@media handheld, screen and (min-width: 35em) {
+@media screen and (min-width: 35em) {
 
   .centered-container {
     width: 60vw;
@@ -98,7 +98,7 @@ a {
   }
 }
 
-@media handheld, screen and (max-width: 35em) {
+@media screen and (max-width: 35em) {
 
   .centered-container {
     width: 90vw;
