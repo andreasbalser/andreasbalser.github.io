@@ -30,7 +30,7 @@
     width: auto;
 }
 
-@media screen and (max-width: 35em) {
+@media handheld, screen and (max-width: 35em) {
     #profile_pic {
         height: 130px;
     }
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (min-width: 35em) {
+@media handheld, screen and (min-width: 35em) {
 
     #interactive-button {
         top: 50px;
