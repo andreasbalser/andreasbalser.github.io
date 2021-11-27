@@ -57,11 +57,11 @@
     }
 }
 
-.centered-container {
+#introduction > .centered-container {
     align-items: center;
     text-align: center;
 
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 #interactive-button {

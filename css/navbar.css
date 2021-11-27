@@ -10,7 +10,7 @@
   gap: 40px;
 
   margin: 0 auto 0;
-  padding: 0 10px 0;
+  padding: 0 10px 15px;
 
   z-index: 2;
   overflow: hidden;
@@ -52,6 +52,10 @@
 
   #mobile {
     display: none;
+  }
+
+  .con:hover .bar,.special-con:hover .bar {
+    background-color: lightgray;
   }
 }
 
@@ -102,10 +106,6 @@ main {
   width: 50px;
   background: #000000;
   margin: 10px auto;
-}
-
-.con:hover .bar,.special-con:hover .bar {
-  background-color: lightgray;
 }
 
 .middle {
